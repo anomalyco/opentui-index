@@ -1,0 +1,66 @@
+---
+id: opentui-tex
+name: OpenTUI TeX
+summary: TeX math renderable with Unicode text and native image backends for OpenTUI.
+kind: component
+official: false
+maintainers:
+  - "@simonklee"
+source:
+  url: https://github.com/simonklee/opentui-tex
+surfaces:
+  - name: TypeScript
+    language: typescript
+    import: "@simonklee/opentui-tex"
+    docs: https://github.com/simonklee/opentui-tex#readme
+  - name: React
+    language: typescript
+    import: "@simonklee/opentui-tex/react"
+  - name: Solid
+    language: typescript
+    import: "@simonklee/opentui-tex/solid"
+distributions:
+  - type: github-release
+    identifier: simonklee/opentui-tex
+    install: |-
+      bun add \
+        https://github.com/simonklee/opentui-tex/releases/download/v0.1.0/simonklee-opentui-tex-0.1.0.tgz \
+        https://github.com/simonklee/opentui-tex/releases/download/v0.1.0/simonklee-opentui-tex-native-0.1.0.tgz
+links:
+  docs: https://github.com/simonklee/opentui-tex#readme
+  issues: https://github.com/simonklee/opentui-tex/issues
+  changelog: https://github.com/simonklee/opentui-tex/releases
+categories:
+  - components
+  - rendering
+---
+
+OpenTUI TeX renders TeX math inside an OpenTUI application. A formula joins the
+renderable tree like any box or text: give it `\sum_{i=1}^{n} i^2` and the
+terminal shows selectable text cells:
+
+```text
+  n
+  ∑   i²
+i = 1
+```
+
+Two backends supply different output. The Unicode backend parses a bounded
+subset of TeX math and lays out fractions, roots, scripts, accents, matrices,
+and cases as terminal cells. The output stays selectable text, and the backend
+has no native dependencies. The optional native package,
+`@simonklee/opentui-tex-native`, renders formulas as images (Kitty, Sixel, or
+block cells) through a prebuilt shared library: MicroTeX layout with real Latin
+Modern Math glyphs, at the cost of a native runtime dependency.
+
+React and Solid apps register a `<tex>` element once and pass the formula as a
+prop. A `streaming` option keeps a Unicode preview updated while a formula is
+still incomplete, so an editor can render as the user types.
+
+Both packages run on Bun and Node.js. Prebuilt native libraries cover x64 and
+arm64 on macOS, Windows, Linux glibc, and Linux musl; native rendering on
+Node.js needs the experimental FFI flags. Formulas are capped at 4,096 UTF-8
+bytes.
+
+The [README](https://github.com/simonklee/opentui-tex#readme) documents both
+backends, the options, and the Node.js flags.
