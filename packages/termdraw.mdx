@@ -1,0 +1,44 @@
+---
+id: termdraw
+name: termDRAW!
+summary: Terminal drawing editor for editable diagrams, UI mocks, and text graphics.
+kind: application
+official: false
+maintainers:
+  - "@benvinegar"
+source:
+  url: https://github.com/benvinegar/termdraw
+surfaces:
+  - name: TypeScript
+    language: typescript
+    import: "@termdraw/opentui"
+    docs: https://github.com/benvinegar/termdraw/tree/main/packages/opentui#readme
+distributions:
+  - type: npm
+    identifier: "@termdraw/app"
+    install: npm install --global @termdraw/app
+  - type: npm
+    identifier: "@termdraw/opentui"
+    install: npm install @termdraw/opentui @opentui/core @opentui/react react
+  - type: npm
+    identifier: "@termdraw/pi"
+    install: pi install npm:@termdraw/pi
+links:
+  docs: https://github.com/benvinegar/termdraw#readme
+  issues: https://github.com/benvinegar/termdraw/issues
+categories:
+  - drawing
+  - diagrams
+---
+
+termDRAW! creates editable diagrams, UI mocks, and terminal text graphics with
+OpenTUI. It stores boxes, lines, paint strokes, and text as retained objects.
+
+Users can select, move, resize, and recolor objects after they draw them.
+Native `.td.json` documents preserve object metadata for later editing.
+
+The embeddable package supplies React components, OpenTUI renderables, and
+output helpers. The Pi package opens the editor as a full-screen overlay.
+
+The project [README](https://github.com/benvinegar/termdraw#readme) documents
+the app, the OpenTUI package, and the Pi integration.

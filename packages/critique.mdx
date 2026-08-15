@@ -1,0 +1,39 @@
+---
+id: critique
+name: critique
+summary: Terminal diff viewer for Git reviews, web previews, and agent workflows.
+kind: application
+official: false
+maintainers:
+  - "@remorses"
+source:
+  url: https://github.com/remorses/critique
+  directory: cli
+distributions:
+  - type: npm
+    identifier: critique
+    install: bun install -g critique
+links:
+  docs: https://github.com/remorses/critique#readme
+  issues: https://github.com/remorses/critique/issues
+categories:
+  - diff viewer
+  - developer tools
+  - Git
+---
+
+critique displays Git changes in an OpenTUI terminal interface. It supports
+unstaged, staged, commit, and branch comparisons with split and unified views.
+
+Tree-sitter supplies syntax highlighting. File selection, watch mode,
+word-level changes, PDF output, and hosted web previews support different
+review workflows.
+
+critique requires Bun and does not run on Node.js. It hides lock files and
+diffs with more than 6,000 lines.
+
+Web previews upload the diff to critique.work. Uploaded diffs expire after
+seven days unless the user supplies a license key.
+
+The [README](https://github.com/remorses/critique#readme) documents the
+commands, navigation, integrations, supported languages, and configuration.

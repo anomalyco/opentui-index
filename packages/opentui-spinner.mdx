@@ -1,0 +1,61 @@
+---
+id: opentui-spinner
+name: opentui-spinner
+summary: Animated spinner renderable with cli-spinners presets for OpenTUI Core, React, and Solid.
+kind: component
+official: false
+maintainers:
+  - "@msmps"
+source:
+  url: https://github.com/msmps/opentui-spinner
+surfaces:
+  - name: TypeScript
+    language: typescript
+    import: opentui-spinner
+    docs: https://github.com/msmps/opentui-spinner#readme
+  - name: React
+    language: typescript
+    import: opentui-spinner/react
+  - name: Solid
+    language: typescript
+    import: opentui-spinner/solid
+distributions:
+  - type: npm
+    identifier: opentui-spinner
+    install: bun add opentui-spinner @opentui/core
+links:
+  docs: https://github.com/msmps/opentui-spinner#readme
+  issues: https://github.com/msmps/opentui-spinner/issues
+categories:
+  - components
+  - animation
+---
+
+opentui-spinner adds an animated loading spinner to OpenTUI applications. The
+`SpinnerRenderable` class joins the [OpenTUI Core](/packages/opentui-core)
+renderable tree like any box or text node. It plays more than 80 named
+animations from cli-spinners and also accepts custom frames and intervals:
+
+```typescript
+const spinner = new SpinnerRenderable(renderer, {
+  name: "dots",
+  color: "cyan",
+});
+renderer.root.add(spinner);
+```
+
+React and Solid applications register a `<spinner>` element with one
+side-effect import and use it with [OpenTUI React](/packages/opentui-react) or
+[OpenTUI Solid](/packages/opentui-solid). The element takes the class options
+as props: an animation name, custom frames, an interval, autoplay, and colors.
+Colors accept named values, RGB objects, hex strings, or a generator function.
+The `createPulse` and `createWave` helpers build pulse and wave color effects.
+
+All running spinners share one scheduler with wake-ups capped at 60 frames per
+second, so staggered spinners can run below their configured rate. The
+scheduler suspends hidden spinners, which do not advance frames or request
+renders. Intervals must stay between 16.67 and 1000 milliseconds, and invalid
+values throw a `RangeError`.
+
+The [README](https://github.com/msmps/opentui-spinner#readme) documents the
+options, the color generators, and the full animation list.

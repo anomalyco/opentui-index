@@ -1,0 +1,33 @@
+---
+id: opentui-doom
+name: DOOM
+summary: Terminal port of DOOM with framebuffer graphics, mouse input, and sound.
+kind: application
+official: false
+maintainers:
+  - "@muhammedaksam"
+source:
+  url: https://github.com/muhammedaksam/opentui-doom
+distributions:
+  - type: npm
+    identifier: "@muhammedaksam/opentui-doom"
+    install: bun add --global @muhammedaksam/opentui-doom
+links:
+  docs: https://github.com/muhammedaksam/opentui-doom#readme
+  issues: https://github.com/muhammedaksam/opentui-doom/issues
+  changelog: https://github.com/muhammedaksam/opentui-doom/releases
+categories:
+  - games
+  - framebuffer
+---
+
+DOOM runs doomgeneric as WebAssembly and draws its framebuffer with half-block
+terminal cells. It supports keyboard controls, mouse aiming, and persistent
+save files.
+
+The application requires Bun and a user-supplied DOOM WAD file. Sound effects
+and music require `mpv`. The npm package includes the compiled WebAssembly
+module.
+
+The project [README](https://github.com/muhammedaksam/opentui-doom#readme)
+documents setup, controls, save files, sound, and known input limits.

@@ -1,0 +1,33 @@
+---
+id: create-tui
+name: create-tui
+summary: Project generator CLI with OpenTUI Core, React, Solid, and custom templates.
+kind: tool
+official: false
+maintainers:
+  - "@msmps"
+source:
+  url: https://github.com/msmps/create-tui
+  directory: packages/cli
+distributions:
+  - type: npm
+    identifier: create-tui
+    install: bun create tui my-tui-project
+links:
+  docs: https://github.com/msmps/create-tui#readme
+  issues: https://github.com/msmps/create-tui/issues
+categories:
+  - project generators
+  - templates
+---
+
+Create OpenTUI App generates projects from [Core](/packages/opentui-core),
+[React](/packages/opentui-react), or [Solid](/packages/opentui-solid)
+templates. It configures the package name, installs dependencies, and can
+initialize a Git repository.
+
+You can also select a public GitHub repository or a directory inside one. Each
+custom template must contain a `package.json` file at its root.
+
+The [README](https://github.com/msmps/create-tui#readme) documents the
+templates, GitHub source formats, and command options.

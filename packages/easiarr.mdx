@@ -1,0 +1,33 @@
+---
+id: easiarr
+name: easiarr
+summary: Terminal setup wizard for Docker Compose stacks in the *arr media ecosystem.
+kind: application
+official: false
+maintainers:
+  - "@muhammedaksam"
+source:
+  url: https://github.com/muhammedaksam/easiarr
+distributions:
+  - type: npm
+    identifier: "@muhammedaksam/easiarr"
+    install: bun add -g @muhammedaksam/easiarr
+links:
+  docs: https://github.com/muhammedaksam/easiarr#readme
+  issues: https://github.com/muhammedaksam/easiarr/issues
+  changelog: https://github.com/muhammedaksam/easiarr/releases
+categories:
+  - Docker Compose
+  - media automation
+---
+
+easiarr guides users through Docker Compose setup for Radarr, Sonarr, Prowlarr,
+and other media applications. It generates the Compose file and stores its
+configuration in the XDG configuration directory.
+
+The OpenTUI terminal interface also manages applications and containers. It
+can show container logs, configure reverse proxies, and apply TRaSH Guides
+profiles.
+
+The [README](https://github.com/muhammedaksam/easiarr#readme) documents the
+setup flow, supported applications, requirements, and configuration files.

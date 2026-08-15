@@ -1,0 +1,31 @@
+---
+id: opendocker
+name: opendocker
+summary: Terminal application for monitoring Docker containers, logs, images, and volumes.
+kind: application
+official: false
+maintainers:
+  - "@votsuk"
+source:
+  url: https://github.com/flat6solutions/opendocker
+  directory: packages/cli
+distributions:
+  - type: npm
+    identifier: opendocker
+    install: npm install -g opendocker
+links:
+  homepage: https://opendocker.dev
+  docs: https://github.com/flat6solutions/opendocker#readme
+  issues: https://github.com/flat6solutions/opendocker/issues
+categories:
+  - Docker
+  - container monitoring
+  - log viewer
+---
+
+opendocker uses [OpenTUI Solid](/packages/opentui-solid) to show Docker
+containers and their status. It streams logs and lets users browse images and
+volumes.
+
+The [README](https://github.com/flat6solutions/opendocker#readme) documents
+features, platform requirements, and keyboard controls.

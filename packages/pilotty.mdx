@@ -1,0 +1,37 @@
+---
+id: pilotty
+name: pilotty
+summary: Terminal automation CLI for AI agents that control OpenTUI and other TUI applications.
+kind: tool
+official: false
+maintainers:
+  - "@msmps"
+source:
+  url: https://github.com/msmps/pilotty
+distributions:
+  - type: npm
+    identifier: pilotty
+    install: npm install -g pilotty
+links:
+  docs: https://github.com/msmps/pilotty#readme
+  issues: https://github.com/msmps/pilotty/issues
+  changelog: https://github.com/msmps/pilotty/releases
+categories:
+  - terminal automation
+  - testing
+  - AI agents
+---
+
+pilotty gives AI agents command-line control of OpenTUI and other terminal
+applications. It manages PTY sessions and returns screen state as structured
+data.
+
+The tool supplies keyboard and mouse input, terminal snapshots, text waits, and
+concurrent sessions. Its daemon keeps applications active between command
+invocations.
+
+pilotty supports Linux and macOS on x64 and ARM64 systems. It does not support
+Windows because it uses Unix sockets and POSIX PTY interfaces.
+
+The [README](https://github.com/msmps/pilotty#readme) documents commands,
+session behavior, terminal input, and AI agent workflows.

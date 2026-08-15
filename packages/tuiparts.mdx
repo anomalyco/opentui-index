@@ -1,0 +1,56 @@
+---
+id: tuiparts
+name: tuiparts.sh
+summary: Interaction primitives and editable component recipes for OpenTUI Core, React, and Solid.
+kind: component
+official: false
+maintainers:
+  - "@msmps"
+source:
+  url: https://github.com/tuiparts/tuiparts
+surfaces:
+  - name: Core
+    language: typescript
+    import: "@tuiparts/core"
+    docs: https://tuiparts.sh/docs/primitives
+  - name: React
+    language: typescript
+    import: "@tuiparts/react"
+    docs: https://tuiparts.sh/docs/primitives
+  - name: Solid
+    language: typescript
+    import: "@tuiparts/solid"
+    docs: https://tuiparts.sh/docs/primitives
+distributions:
+  - type: npm
+    identifier: "@tuiparts/core"
+    install: bun add @tuiparts/core
+  - type: npm
+    identifier: "@tuiparts/react"
+    install: bun add @tuiparts/react
+  - type: npm
+    identifier: "@tuiparts/solid"
+    install: bun add @tuiparts/solid
+links:
+  homepage: https://tuiparts.sh
+  docs: https://tuiparts.sh/docs/quickstart
+  issues: https://github.com/tuiparts/tuiparts/issues
+categories:
+  - components
+  - interaction primitives
+---
+
+tuiparts.sh supplies interaction primitives and editable recipes for OpenTUI
+terminal controls. The primitives manage state, focus, keyboard input, pointer
+input, collections, and overlays.
+
+Core applications use stores and renderables. React and Solid applications use
+adapters for the same behavior. The recipes copy editable TypeScript
+presentation into an application.
+
+Users add one package to an existing application for the corresponding
+runtime.
+
+The [quick start](https://tuiparts.sh/docs/quickstart) explains recipe
+installation. The [primitive guide](https://tuiparts.sh/docs/primitives)
+documents the packaged controls and their public parts.

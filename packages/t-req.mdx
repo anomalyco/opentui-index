@@ -1,0 +1,35 @@
+---
+id: t-req
+name: t-req
+summary: Terminal API client for running and inspecting .http request files.
+kind: application
+official: false
+maintainers:
+  - "@andrewmelchor"
+source:
+  url: https://github.com/tensorix-labs/t-req
+  directory: packages/app
+distributions:
+  - type: npm
+    identifier: "@t-req/app"
+    install: npm install -g @t-req/app
+links:
+  homepage: https://t-req.io
+  docs: https://t-req.io/docs/getting-started
+  issues: https://github.com/tensorix-labs/t-req/issues
+  changelog: https://github.com/tensorix-labs/t-req/releases
+categories:
+  - API testing
+  - HTTP client
+  - developer tools
+---
+
+t-req uses [OpenTUI Solid](/packages/opentui-solid) to browse `.http` files,
+run requests, and inspect responses in a terminal interface.
+
+The application can also run scripts and tests, switch between profiles, and
+show observed requests as they occur.
+
+The [documentation](https://t-req.io/docs/getting-started) explains projects,
+the terminal interface, command-line use, configuration, and the HTTP file
+format.

@@ -1,0 +1,35 @@
+---
+id: red-cli
+name: Red
+summary: Redis client for browsing and managing databases in the terminal.
+kind: application
+official: false
+maintainers:
+  - "@evertdespiegeleer"
+source:
+  url: https://github.com/evertdespiegeleer/red-cli
+distributions:
+  - type: github-release
+    identifier: evertdespiegeleer/red-cli
+    install: |-
+      brew tap evertdespiegeleer/tap
+      brew install red-cli
+links:
+  docs: https://github.com/evertdespiegeleer/red-cli#readme
+  issues: https://github.com/evertdespiegeleer/red-cli/issues
+  changelog: https://github.com/evertdespiegeleer/red-cli/releases
+categories:
+  - Redis
+  - database management
+---
+
+Red uses [OpenTUI React](/packages/opentui-react) to inspect and manage Redis
+databases. Its terminal interface groups keys by a configurable delimiter and
+shows key details.
+
+Users can set the Redis connection, initial path, automatic refresh, and refresh
+interval. Red accepts command-line options, environment variables, and several
+configuration file formats.
+
+The [README](https://github.com/evertdespiegeleer/red-cli#readme) documents
+usage and configuration.

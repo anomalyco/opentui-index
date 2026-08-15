@@ -1,0 +1,45 @@
+---
+id: hunk
+name: hunk
+summary: Terminal diff viewer for changesets, code review, and agent annotations.
+kind: application
+official: false
+maintainers:
+  - "@benvinegar"
+source:
+  url: https://github.com/modem-dev/hunk
+surfaces:
+  - name: React
+    language: typescript
+    import: hunkdiff/opentui
+    docs: https://hunk.dev/docs/reference/opentui-components/
+distributions:
+  - type: npm
+    identifier: hunkdiff
+    install: npm install --global hunkdiff
+links:
+  homepage: https://hunk.dev
+  docs: https://hunk.dev/docs/
+  issues: https://github.com/modem-dev/hunk/issues
+  changelog: https://github.com/modem-dev/hunk/releases
+categories:
+  - code review
+  - diff viewer
+  - developer tools
+---
+
+hunk opens Git, Jujutsu, Sapling, file, and patch changesets in an interactive
+OpenTUI review interface. It supports split and stacked layouts.
+
+Reviewers can navigate multiple files, use keyboard or mouse controls, and view
+agent annotations beside the related code. Watch mode reloads file and Git
+reviews.
+
+Applications can embed the same renderer through its React component API. The
+API supplies single-file views, multi-file review streams, file navigation, and
+diff parsers.
+
+hunk runs on macOS, Linux, and Windows and ships a standalone binary.
+
+The [documentation](https://hunk.dev/docs/) covers review workflows, agent
+integration, configuration, extensions, and the component API.

@@ -1,0 +1,34 @@
+---
+id: ghui
+name: ghui
+summary: Terminal application for reviewing and managing GitHub pull requests across repositories.
+kind: application
+official: false
+maintainers:
+  - "@kitlangton"
+source:
+  url: https://github.com/kitlangton/ghui
+distributions:
+  - type: npm
+    identifier: "@kitlangton/ghui"
+    install: npm install -g @kitlangton/ghui
+links:
+  docs: https://github.com/kitlangton/ghui#readme
+  issues: https://github.com/kitlangton/ghui/issues
+  changelog: https://github.com/kitlangton/ghui/blob/main/CHANGELOG.md
+categories:
+  - GitHub
+  - pull requests
+  - code review
+---
+
+ghui uses [OpenTUI React](/packages/opentui-react) to show GitHub pull requests
+from multiple repositories. Users can inspect details and diffs, write
+comments, and manage labels.
+
+The application can submit reviews, change draft status, merge pull requests,
+and show GitHub Actions runs. It also opens pull requests in an editor or
+browser.
+
+The [README](https://github.com/kitlangton/ghui#readme) documents
+configuration, editor commands, workflow views, and key bindings.
