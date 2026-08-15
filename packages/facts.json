@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "packages": [
+    {
+      "id": "opentui-core",
+      "stars": 13017
+    },
+    {
+      "id": "opentui-examples",
+      "stars": 13017
+    },
+    {
+      "id": "opentui-keymap",
+      "stars": 13017
+    },
+    {
+      "id": "opentui-qrcode",
+      "stars": 13017
+    },
+    {
+      "id": "opentui-react",
+      "stars": 13017
+    },
+    {
+      "id": "opentui-solid",
+      "stars": 13017
+    },
+    {
+      "id": "opentui-ssh",
+      "stars": 13017
+    },
+    {
+      "id": "opentui-tex",
+      "version": "v0.1.0",
+      "license": "MIT",
+      "stars": 0
+    },
+    {
+      "id": "opentui-three",
+      "stars": 13017
+    }
+  ]
+}
