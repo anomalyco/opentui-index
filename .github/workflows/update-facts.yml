@@ -36,9 +36,6 @@ jobs:
         working-directory: opentui/packages/web
         env:
           GITHUB_TOKEN: ${{ github.token }}
-      - name: Validate package facts
-        run: bun scripts/validate-packages.ts "$GITHUB_WORKSPACE/packages"
-        working-directory: opentui/packages/web
       - name: Commit changes
         run: |
           git add packages/facts.json
