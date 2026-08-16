@@ -2,32 +2,91 @@
   "schemaVersion": 1,
   "packages": [
     {
+      "id": "create-tui",
+      "version": "0.0.11",
+      "license": "MIT",
+      "stars": 140
+    },
+    {
+      "id": "critique",
+      "version": "0.1.140",
+      "license": "MIT",
+      "stars": 1251
+    },
+    {
+      "id": "easiarr",
+      "version": "1.6.0",
+      "license": "MIT",
+      "stars": 73
+    },
+    {
+      "id": "ghui",
+      "version": "0.9.0",
+      "license": "MIT",
+      "stars": 1074
+    },
+    {
+      "id": "gloomberb",
+      "version": "0.10.4",
+      "license": "MIT",
+      "stars": 1740
+    },
+    {
+      "id": "hunk",
+      "version": "0.18.2",
+      "license": "MIT",
+      "stars": 8432
+    },
+    {
+      "id": "opencode",
+      "version": "1.18.18",
+      "license": "MIT",
+      "stars": 197825
+    },
+    {
+      "id": "opendocker",
+      "version": "0.7.4",
+      "stars": 37
+    },
+    {
       "id": "opentui-core",
-      "stars": 13017
+      "stars": 13019
+    },
+    {
+      "id": "opentui-doom",
+      "version": "0.4.0",
+      "license": "MIT",
+      "stars": 46
     },
     {
       "id": "opentui-examples",
-      "stars": 13017
+      "stars": 13019
     },
     {
       "id": "opentui-keymap",
-      "stars": 13017
+      "stars": 13019
     },
     {
       "id": "opentui-qrcode",
-      "stars": 13017
+      "stars": 13019
     },
     {
       "id": "opentui-react",
-      "stars": 13017
+      "stars": 13019
     },
     {
       "id": "opentui-solid",
-      "stars": 13017
+      "stars": 13019
+    },
+    {
+      "id": "opentui-spinner",
+      "version": "0.0.7",
+      "license": "MIT",
+      "stars": 38
     },
     {
       "id": "opentui-ssh",
-      "stars": 13017
+      "stars": 13019
     },
     {
       "id": "opentui-tex",
@@ -37,7 +96,43 @@
     },
     {
       "id": "opentui-three",
-      "stars": 13017
+      "stars": 13019
+    },
+    {
+      "id": "pilotty",
+      "version": "0.0.11",
+      "license": "MIT",
+      "stars": 153
+    },
+    {
+      "id": "red-cli",
+      "version": "v0.0.15",
+      "license": "MIT",
+      "stars": 39
+    },
+    {
+      "id": "t-req",
+      "version": "0.3.18",
+      "license": "MIT",
+      "stars": 22
+    },
+    {
+      "id": "termdraw",
+      "version": "0.4.1",
+      "license": "MIT",
+      "stars": 284
+    },
+    {
+      "id": "tuiparts",
+      "version": "0.0.6",
+      "license": "MIT",
+      "stars": 247
+    },
+    {
+      "id": "waha-tui",
+      "version": "1.6.7",
+      "license": "MIT",
+      "stars": 388
     }
   ]
 }
