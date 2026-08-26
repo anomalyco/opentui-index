@@ -1,0 +1,49 @@
+---
+id: tfm-tui
+name: tfm
+summary: Mouse-first terminal file manager for Linux with image previews and desktop integration.
+kind: application
+official: false
+maintainers:
+  - "@clarkarch"
+source:
+  url: https://github.com/clarkarch/tfm-tui
+distributions:
+  - type: github-release
+    identifier: clarkarch/tfm-tui
+    install: curl -fsSL https://raw.githubusercontent.com/clarkarch/tfm-tui/master/install.sh | bash
+links:
+  docs: https://github.com/clarkarch/tfm-tui#readme
+  issues: https://github.com/clarkarch/tfm-tui/issues
+  changelog: https://github.com/clarkarch/tfm-tui/releases
+categories:
+  - file manager
+  - desktop integration
+  - kitty graphics
+---
+
+tfm uses [OpenTUI Core](/packages/opentui-core) to browse, move, rename, and
+preview files from a mouse-first terminal interface. Run `tfm ~/some/path` to
+open a directory with a Nautilus-style sidebar and a file grid. The grid supports
+context menus, rubber-band selection, live search, and undo and redo.
+
+The file browser reads GTK bookmarks and recent files, restores items from XDG
+trash, and shares the system clipboard. An embedded terminal opens `$SHELL` in
+the current directory. The interface also shows image thumbnails and
+tree-sitter syntax highlighting, with more than 30 configurable themes.
+
+tfm runs only on Linux and ships prebuilt binaries for x86_64 and aarch64. Image
+thumbnails require a terminal that supports the kitty graphics protocol, such as
+`kitty` or `ghostty`. Other terminals show Nerd Font glyphs instead. Only `kitty`
+supports drag and drop between tfm and external applications. Under tmux, image
+previews require `allow-passthrough`.
+
+Desktop features depend on external helpers, including `gio`, `xdg-open`,
+`udisksctl`, `rsvg-convert`, `magick`, and Wayland or X11 clipboard tools. Moves
+between filesystems copy files and then delete the originals, so those moves are
+not atomic. The project is experimental. Do not use it with files that you
+cannot afford to lose.
+
+The [README](https://github.com/clarkarch/tfm-tui#readme) documents terminal
+compatibility, desktop helpers, keyboard controls, configuration, and known
+limitations.
