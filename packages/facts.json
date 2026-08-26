@@ -5,13 +5,13 @@
       "id": "create-tui",
       "version": "0.0.11",
       "license": "MIT",
-      "stars": 144
+      "stars": 145
     },
     {
       "id": "critique",
       "version": "0.1.140",
       "license": "MIT",
-      "stars": 1257
+      "stars": 1260
     },
     {
       "id": "easiarr",
@@ -23,34 +23,34 @@
       "id": "ghui",
       "version": "0.9.0",
       "license": "MIT",
-      "stars": 1081
+      "stars": 1087
     },
     {
       "id": "gloomberb",
       "version": "0.11.1",
       "license": "MIT",
-      "stars": 1977
+      "stars": 1982
     },
     {
       "id": "hunk",
-      "version": "0.19.1",
+      "version": "0.20.0",
       "license": "MIT",
-      "stars": 8720
+      "stars": 8739
     },
     {
       "id": "opencode",
-      "version": "1.18.22",
+      "version": "1.18.23",
       "license": "MIT",
-      "stars": 201064
+      "stars": 201395
     },
     {
       "id": "opendocker",
       "version": "0.7.4",
-      "stars": 38
+      "stars": 39
     },
     {
       "id": "opentui-core",
-      "stars": 13144
+      "stars": 13151
     },
     {
       "id": "opentui-doom",
@@ -60,23 +60,23 @@
     },
     {
       "id": "opentui-examples",
-      "stars": 13144
+      "stars": 13151
     },
     {
       "id": "opentui-keymap",
-      "stars": 13144
+      "stars": 13151
     },
     {
       "id": "opentui-qrcode",
-      "stars": 13144
+      "stars": 13151
     },
     {
       "id": "opentui-react",
-      "stars": 13144
+      "stars": 13151
     },
     {
       "id": "opentui-solid",
-      "stars": 13144
+      "stars": 13151
     },
     {
       "id": "opentui-spinner",
@@ -86,7 +86,7 @@
     },
     {
       "id": "opentui-ssh",
-      "stars": 13144
+      "stars": 13151
     },
     {
       "id": "opentui-tex",
@@ -96,7 +96,7 @@
     },
     {
       "id": "opentui-three",
-      "stars": 13144
+      "stars": 13151
     },
     {
       "id": "pilotty",
@@ -120,7 +120,7 @@
       "id": "termdraw",
       "version": "0.4.1",
       "license": "MIT",
-      "stars": 290
+      "stars": 292
     },
     {
       "id": "tuiparts",
