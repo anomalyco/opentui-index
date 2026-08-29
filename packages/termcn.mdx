@@ -1,0 +1,39 @@
+---
+id: termcn
+name: termcn
+summary: Free and open-source terminal UI components for React built on OpenTUI.
+kind: component
+official: false
+maintainers:
+  - "@Aniket-508"
+source:
+  url: https://github.com/shadcn-labs/termcn
+surfaces:
+  - name: OpenTUI
+    language: typescript
+    import: termcn
+    docs: https://termcn.dev/docs/installation
+distributions:
+  - type: npm
+    identifier: termcn
+    install: npx termcn init
+links:
+  homepage: https://termcn.dev
+  docs: https://termcn.dev/docs/installation
+  issues: https://github.com/shadcn-labs/termcn/issues
+categories:
+  - components
+  - cli
+---
+
+termcn brings ready-to-use terminal UI components to React applications through
+OpenTUI. It follows the same registry and installation pattern as shadcn/ui for
+the web, adapted for the terminal.
+
+The CLI scaffolds a project, installs components from a registry, and builds
+custom registries. Thirty-eight built-in themes ship with the components,
+including Catppuccin, Dracula, Nord, and Tokyo Night.
+
+An MCP server integrates with AI coding tools for component discovery and
+installation. The [installation guide](https://termcn.dev/docs/installation)
+covers setup and the available commands.
