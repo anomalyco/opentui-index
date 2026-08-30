@@ -27,30 +27,30 @@
     },
     {
       "id": "gloomberb",
-      "version": "0.11.2",
+      "version": "0.11.3",
       "license": "MIT",
-      "stars": 2001
+      "stars": 2010
     },
     {
       "id": "hunk",
-      "version": "0.20.0",
+      "version": "0.20.1",
       "license": "MIT",
-      "stars": 8881
+      "stars": 8923
     },
     {
       "id": "opencode",
       "version": "1.18.25",
       "license": "MIT",
-      "stars": 202215
+      "stars": 202409
     },
     {
       "id": "opendocker",
       "version": "0.7.4",
-      "stars": 39
+      "stars": 40
     },
     {
       "id": "opentui-core",
-      "stars": 13175
+      "stars": 13177
     },
     {
       "id": "opentui-doom",
@@ -60,23 +60,23 @@
     },
     {
       "id": "opentui-examples",
-      "stars": 13175
+      "stars": 13177
     },
     {
       "id": "opentui-keymap",
-      "stars": 13175
+      "stars": 13177
     },
     {
       "id": "opentui-qrcode",
-      "stars": 13175
+      "stars": 13177
     },
     {
       "id": "opentui-react",
-      "stars": 13175
+      "stars": 13177
     },
     {
       "id": "opentui-solid",
-      "stars": 13175
+      "stars": 13177
     },
     {
       "id": "opentui-spinner",
@@ -86,7 +86,7 @@
     },
     {
       "id": "opentui-ssh",
-      "stars": 13175
+      "stars": 13177
     },
     {
       "id": "opentui-tex",
@@ -96,7 +96,7 @@
     },
     {
       "id": "opentui-three",
-      "stars": 13175
+      "stars": 13177
     },
     {
       "id": "pilotty",
@@ -117,28 +117,34 @@
       "stars": 22
     },
     {
+      "id": "termcn",
+      "version": "0.0.0",
+      "license": "MIT",
+      "stars": 1092
+    },
+    {
       "id": "termdraw",
       "version": "0.4.1",
       "license": "MIT",
-      "stars": 300
+      "stars": 304
     },
     {
       "id": "tfm-tui",
-      "version": "v0.1.0-alpha.10",
+      "version": "v0.1.0-alpha.11",
       "license": "MIT",
-      "stars": 63
+      "stars": 69
     },
     {
       "id": "tuiparts",
       "version": "0.0.6",
       "license": "MIT",
-      "stars": 253
+      "stars": 254
     },
     {
       "id": "waha-tui",
       "version": "1.6.7",
       "license": "MIT",
-      "stars": 393
+      "stars": 394
     }
   ]
 }
