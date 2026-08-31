@@ -1,0 +1,40 @@
+---
+id: surp
+name: surp
+summary: nvim-style terminal client for Supabase — manage projects, tables, SQL, edge functions, storage, auth users, and more from your terminal.
+kind: tool
+official: false
+maintainers:
+  - "@rexadbapp"
+source:
+  url: https://github.com/rexadbapp/surp
+surfaces:
+  - name: TypeScript
+    language: typescript
+    import: '@rexadbapp/surp'
+distributions:
+  - type: npm
+    identifier: '@rexadbapp/surp'
+    install: npm install -g @rexadbapp/surp
+links:
+  docs: https://github.com/rexadbapp/surp#readme
+  issues: https://github.com/rexadbapp/surp/issues
+categories:
+  - cli
+  - database
+  - supabase
+---
+
+surp is an open source, nvim-style terminal client for Supabase. Manage projects, tables, SQL, edge functions, storage, auth users, and more from your terminal. Free, no account required.
+
+Features:
+- Browser-based Supabase login flow with personal access token storage
+- Direct API connection — no RexaDB account, subscription, or license required
+- Support for any PostgreSQL database (not limited to Supabase)
+- Tables browser, SQL editor, row editing, schema ERD, linter
+- Storage and auth browsing
+- Saved connection profiles for quick reuse
+- Cross-platform: macOS (arm64/x64), Linux (x64), Windows (x64)
+- Self-update functionality via `:update` command
+
+Binaries are published on [GitHub Releases](https://github.com/rexadbapp/surp/releases) and installed via npm postinstall — no source code is shipped.
