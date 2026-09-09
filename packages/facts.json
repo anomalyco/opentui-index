@@ -27,21 +27,21 @@
     },
     {
       "id": "gloomberb",
-      "version": "0.13.2",
+      "version": "0.13.3",
       "license": "MIT",
-      "stars": 2058
+      "stars": 2100
     },
     {
       "id": "hunk",
       "version": "0.21.1",
       "license": "MIT",
-      "stars": 9161
+      "stars": 9179
     },
     {
       "id": "opencode",
       "version": "1.18.29",
       "license": "MIT",
-      "stars": 205713
+      "stars": 205967
     },
     {
       "id": "opendocker",
@@ -50,7 +50,7 @@
     },
     {
       "id": "opentui-core",
-      "stars": 13260
+      "stars": 13268
     },
     {
       "id": "opentui-doom",
@@ -60,23 +60,23 @@
     },
     {
       "id": "opentui-examples",
-      "stars": 13260
+      "stars": 13268
     },
     {
       "id": "opentui-keymap",
-      "stars": 13260
+      "stars": 13268
     },
     {
       "id": "opentui-qrcode",
-      "stars": 13260
+      "stars": 13268
     },
     {
       "id": "opentui-react",
-      "stars": 13260
+      "stars": 13268
     },
     {
       "id": "opentui-solid",
-      "stars": 13260
+      "stars": 13268
     },
     {
       "id": "opentui-spinner",
@@ -86,7 +86,7 @@
     },
     {
       "id": "opentui-ssh",
-      "stars": 13260
+      "stars": 13268
     },
     {
       "id": "opentui-tex",
@@ -96,7 +96,7 @@
     },
     {
       "id": "opentui-three",
-      "stars": 13260
+      "stars": 13268
     },
     {
       "id": "pilotty",
@@ -126,7 +126,7 @@
       "id": "termcn",
       "version": "0.0.0",
       "license": "MIT",
-      "stars": 1109
+      "stars": 1110
     },
     {
       "id": "termdraw",
@@ -138,19 +138,19 @@
       "id": "tfm-tui",
       "version": "v0.1.0-alpha.11",
       "license": "MIT",
-      "stars": 82
+      "stars": 85
     },
     {
       "id": "tuiparts",
       "version": "0.0.6",
       "license": "MIT",
-      "stars": 255
+      "stars": 257
     },
     {
       "id": "waha-tui",
       "version": "1.6.7",
       "license": "MIT",
-      "stars": 395
+      "stars": 396
     }
   ]
 }
