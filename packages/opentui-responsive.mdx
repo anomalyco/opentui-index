@@ -1,0 +1,72 @@
+---
+id: opentui-responsive
+name: OpenTUI Responsive
+summary: Typed width and height breakpoints for OpenTUI.
+kind: library
+official: false
+maintainers:
+  - "@itsmeyaw"
+source:
+  url: https://github.com/itsmeyaw/opentui-responsive
+surfaces:
+  - name: Core
+    language: typescript
+    import: opentui-responsive/core
+    docs: https://github.com/itsmeyaw/opentui-responsive#opentui-responsivecore
+  - name: React
+    language: typescript
+    import: opentui-responsive/react
+    docs: https://github.com/itsmeyaw/opentui-responsive#opentui-responsivesolid-and-opentui-responsivereact
+  - name: Solid
+    language: typescript
+    import: opentui-responsive/solid
+    docs: https://github.com/itsmeyaw/opentui-responsive#opentui-responsivesolid-and-opentui-responsivereact
+distributions:
+  - type: npm
+    identifier: opentui-responsive
+    install: bun add opentui-responsive
+links:
+  docs: https://github.com/itsmeyaw/opentui-responsive#readme
+  issues: https://github.com/itsmeyaw/opentui-responsive/issues
+  changelog: https://github.com/itsmeyaw/opentui-responsive/releases
+categories:
+  - responsive layout
+  - breakpoints
+  - framework adapters
+---
+
+OpenTUI Responsive maps terminal width and height to named breakpoint pairs.
+Its React and Solid providers update generated hooks when dimensions cross
+configured thresholds.
+
+Configure independent, inclusive minimum thresholds for each axis. Every scale
+includes zero, and the highest satisfied threshold selects the current name.
+A Solid layout can provide the generated accessor to its children.
+
+```tsx
+const { ResponsiveTUI, useResponsiveTui } = createResponsiveTui({
+  width: { narrow: 0, medium: 60, wide: 100 },
+  height: { short: 0, medium: 16, tall: 28 },
+});
+
+export function Layout(props: ParentProps) {
+  return <ResponsiveTUI>{props.children}</ResponsiveTUI>;
+}
+
+export function Content() {
+  const breakpoint = useResponsiveTui();
+
+  return (
+    <box flexDirection={breakpoint().width === "wide" ? "row" : "column"}>
+      <text>{breakpoint(["wide", "tall"]) ? "Full layout" : "Compact layout"}</text>
+    </box>
+  );
+}
+```
+
+The accessor returns the current width and height names. It also tests an exact
+width and height pair when called with both names.
+
+The [README](https://github.com/itsmeyaw/opentui-responsive#readme) documents
+provider setup, exact pair matching, validation rules, and framework adapter
+APIs.
