@@ -58,15 +58,16 @@ export function Content() {
 
   return (
     <box flexDirection={breakpoint().width === "wide" ? "row" : "column"}>
-      <text>{breakpoint(["wide", "tall"]) ? "Full layout" : "Compact layout"}</text>
+      <text>{breakpoint.atLeast(["medium", "medium"]) ? "Full layout" : "Compact layout"}</text>
     </box>
   );
 }
 ```
 
-The accessor returns the current width and height names. It also tests an exact
-width and height pair when called with both names.
+The accessor returns the current width and height names. It tests exact pairs
+and compares tiers with `below`, `atMost`, `only`, `atLeast`, and `above`.
+Each relation accepts one axis or an AND-combined width and height pair.
 
 The [README](https://github.com/itsmeyaw/opentui-responsive#readme) documents
-provider setup, exact pair matching, validation rules, and framework adapter
+provider setup, breakpoint relations, validation rules, and framework adapter
 APIs.
