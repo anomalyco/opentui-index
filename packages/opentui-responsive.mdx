@@ -44,7 +44,7 @@ includes zero, and the highest satisfied threshold selects the current name.
 A Solid layout can provide the generated accessor to its children.
 
 ```tsx
-const { ResponsiveTUI, useResponsiveTui } = createResponsiveTui({
+const { ResponsiveTUI, useBreakpoint } = createResponsiveTui({
   width: { narrow: 0, medium: 60, wide: 100 },
   height: { short: 0, medium: 16, tall: 28 },
 });
@@ -54,7 +54,7 @@ export function Layout(props: ParentProps) {
 }
 
 export function Content() {
-  const breakpoint = useResponsiveTui();
+  const breakpoint = useBreakpoint();
 
   return (
     <box flexDirection={breakpoint().width === "wide" ? "row" : "column"}>
