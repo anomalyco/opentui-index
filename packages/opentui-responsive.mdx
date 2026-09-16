@@ -41,7 +41,7 @@ configured thresholds.
 
 Configure independent, inclusive minimum thresholds for each axis. Every scale
 includes zero, and the highest satisfied threshold selects the current name.
-A Solid layout can provide the generated accessor to its children.
+A Solid layout can provide the generated breakpoint tuple to its children.
 
 ```tsx
 const { ResponsiveTUI, useBreakpoint } = createResponsiveTui({
@@ -54,19 +54,20 @@ export function Layout(props: ParentProps) {
 }
 
 export function Content() {
-  const breakpoint = useBreakpoint();
+  const [width, height, viewport] = useBreakpoint();
 
   return (
-    <box flexDirection={breakpoint().width === "wide" ? "row" : "column"}>
-      <text>{breakpoint.atLeast(["medium", "medium"]) ? "Full layout" : "Compact layout"}</text>
+    <box flexDirection={width() === "wide" ? "row" : "column"}>
+      <text>{`${width()}/${height()}`}</text>
+      <text>{viewport.atLeast(["medium", "medium"]) ? "Full layout" : "Compact layout"}</text>
     </box>
   );
 }
 ```
 
-The accessor returns the current width and height names. It tests exact pairs
-and compares tiers with `below`, `atMost`, `only`, `atLeast`, and `above`.
-Each relation accepts one axis or an AND-combined width and height pair.
+The hook returns `width`, `height`, and `viewport` accessors. Axis accessors
+read and compare their own breakpoint names. The viewport accessor tests exact
+pairs and combines width and height relations with AND semantics.
 
 The [README](https://github.com/itsmeyaw/opentui-responsive#readme) documents
 provider setup, breakpoint relations, validation rules, and framework adapter
