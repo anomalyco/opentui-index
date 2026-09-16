@@ -69,6 +69,9 @@ The hook returns `width`, `height`, and `viewport` accessors. Axis accessors
 read and compare their own breakpoint names. The viewport accessor tests exact
 pairs and combines width and height relations with AND semantics.
 
+The Solid and React adapters also provide `useRenderableDimensions()` for
+tracking the Yoga-computed width and height of a local renderable.
+
 The [README](https://github.com/itsmeyaw/opentui-responsive#readme) documents
 provider setup, breakpoint relations, validation rules, and framework adapter
 APIs.
