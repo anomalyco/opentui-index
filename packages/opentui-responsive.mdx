@@ -57,7 +57,7 @@ export function Content() {
   const [width, height, viewport] = useBreakpoint();
 
   return (
-    <box flexDirection={width() === "wide" ? "row" : "column"}>
+    <box flexDirection={width.is("wide") ? "row" : "column"}>
       <text>{`${width()}/${height()}`}</text>
       <text>{viewport.atLeast(["medium", "medium"]) ? "Full layout" : "Compact layout"}</text>
     </box>
