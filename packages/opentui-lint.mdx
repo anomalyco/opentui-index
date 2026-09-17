@@ -1,0 +1,53 @@
+---
+id: opentui-lint
+name: opentui-lint
+summary: ESLint and oxlint plugin for OpenTUI React and Solid apps.
+kind: tool
+official: false
+maintainers:
+  - "@phall1"
+source:
+  url: https://github.com/phall1/opentui-lint
+  directory: packages/lint
+surfaces:
+  - name: TypeScript
+    language: typescript
+    import: opentui-lint
+    docs: https://github.com/phall1/opentui-lint#readme
+distributions:
+  - type: npm
+    identifier: opentui-lint
+    install: bun add -d opentui-lint
+links:
+  docs: https://github.com/phall1/opentui-lint#readme
+  issues: https://github.com/phall1/opentui-lint/issues
+  changelog: https://github.com/phall1/opentui-lint/releases
+categories:
+  - lint
+  - eslint
+  - oxlint
+---
+
+opentui-lint is an ESLint 9 plugin for OpenTUI, and it also works as an oxlint
+JS plugin. It finds JSX that TypeScript lets through and then fails when you
+render. React and Solid are both supported; the message uses the error from
+the binding you are on.
+
+It ignores files that are not OpenTUI. An import from `@opentui/react` or
+`@opentui/solid` counts, as does a JSX pragma, `jsxImportSource`, or a
+framework setting. If the same repo has a web app, those files stay quiet.
+
+It catches HTML tags like `<div>`, text that is not inside `<text>`, colors
+that render magenta, and web leftovers like `className`.
+
+```tsx
+<div>Ready</div>
+```
+
+TypeScript is happy with that. OpenTUI throws `Unknown component type: div`.
+The lint error says to use `<box>`. The lists of elements, props, and colors
+come from a real OpenTUI install.
+
+No runtime dependencies. Needs Node 20.19 or Bun 1.4.1, plus ESLint 9.30 if
+you use ESLint. Rules, oxlint setup, and the type-aware option are in the
+[README](https://github.com/phall1/opentui-lint#readme).
