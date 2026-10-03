@@ -23,25 +23,25 @@
       "id": "ghui",
       "version": "0.9.1",
       "license": "MIT",
-      "stars": 1122
+      "stars": 1123
     },
     {
       "id": "gloomberb",
-      "version": "0.15.5",
+      "version": "0.15.7",
       "license": "MIT",
-      "stars": 2314
+      "stars": 2316
     },
     {
       "id": "hunk",
       "version": "0.23.0",
       "license": "MIT",
-      "stars": 9462
+      "stars": 9470
     },
     {
       "id": "opencode",
       "version": "1.18.34",
       "license": "MIT",
-      "stars": 211350
+      "stars": 211517
     },
     {
       "id": "opendocker",
@@ -50,7 +50,7 @@
     },
     {
       "id": "opentui-core",
-      "stars": 13446
+      "stars": 13457
     },
     {
       "id": "opentui-doom",
@@ -60,11 +60,11 @@
     },
     {
       "id": "opentui-examples",
-      "stars": 13446
+      "stars": 13457
     },
     {
       "id": "opentui-keymap",
-      "stars": 13446
+      "stars": 13457
     },
     {
       "id": "opentui-lint",
@@ -74,11 +74,11 @@
     },
     {
       "id": "opentui-qrcode",
-      "stars": 13446
+      "stars": 13457
     },
     {
       "id": "opentui-react",
-      "stars": 13446
+      "stars": 13457
     },
     {
       "id": "opentui-responsive",
@@ -88,7 +88,7 @@
     },
     {
       "id": "opentui-solid",
-      "stars": 13446
+      "stars": 13457
     },
     {
       "id": "opentui-spinner",
@@ -98,7 +98,7 @@
     },
     {
       "id": "opentui-ssh",
-      "stars": 13446
+      "stars": 13457
     },
     {
       "id": "opentui-tex",
@@ -108,7 +108,7 @@
     },
     {
       "id": "opentui-three",
-      "stars": 13446
+      "stars": 13457
     },
     {
       "id": "pilotty",
@@ -138,7 +138,7 @@
       "id": "termcn",
       "version": "0.0.0",
       "license": "MIT",
-      "stars": 1170
+      "stars": 1172
     },
     {
       "id": "termdraw",
@@ -150,7 +150,7 @@
       "id": "tfm-tui",
       "version": "v0.1.0-beta.0",
       "license": "MIT",
-      "stars": 256
+      "stars": 255
     },
     {
       "id": "tuiparts",
