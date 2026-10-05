@@ -1,0 +1,54 @@
+---
+id: opentui-split
+name: OpenTUI Split
+summary: Draggable, resizable split-pane renderable for OpenTUI with React and Solid adapters.
+kind: component
+official: false
+maintainers:
+  - "@viralcodex"
+source:
+  url: https://github.com/viralcodex/opentui-split
+surfaces:
+  - name: Core
+    language: typescript
+    import: opentui-split
+    docs: https://github.com/viralcodex/opentui-split#core
+  - name: React
+    language: typescript
+    import: opentui-split/react
+    docs: https://github.com/viralcodex/opentui-split#react
+  - name: Solid
+    language: typescript
+    import: opentui-split/solid
+    docs: https://github.com/viralcodex/opentui-split#solid
+distributions:
+  - type: github-release
+    identifier: viralcodex/opentui-split
+    install: bun add github:viralcodex/opentui-split
+links:
+  docs: https://github.com/viralcodex/opentui-split#readme
+  issues: https://github.com/viralcodex/opentui-split/issues
+  changelog: https://github.com/viralcodex/opentui-split/releases
+categories:
+  - layout
+  - split pane
+  - framework adapters
+---
+
+OpenTUI Split creates resizable boxes along one axis.
+
+The core class drives the layout. Call `addPane(pane, size, minSize)` to append a pane, and read sizes back through the `onSizesChange` callback after a drag or a container resize.
+
+```typescript
+const outer = new SplitPaneRenderable(renderer, {
+  id: "outer",
+  direction: "horizontal",
+  onSizesChange: (sizes) => saveLayout(sizes),
+});
+outer.addPane(sidebar, 26, 16);
+outer.addPane(mainArea, 80, 20);
+```
+
+The React and Solid adapters register a `split_pane` element that reads box children and the `sizes` and `minSizes` props. They insert and remove gutters as children mount, move, or unmount. The intrinsics self-register on import, and an exported `registerSplitPane()` covers bundlers that strip the side effect.
+
+Gutter width, color, visibility, and divider glyphs are configurable, and a hidden gutter still drags. The package runs on Bun and Node.js. The [README](https://github.com/viralcodex/opentui-split#readme) documents the core API, the adapters, and the gutter options.
