@@ -27,21 +27,21 @@
     },
     {
       "id": "gloomberb",
-      "version": "0.16.3",
+      "version": "0.16.4",
       "license": "MIT",
-      "stars": 2411
+      "stars": 2414
     },
     {
       "id": "hunk",
       "version": "0.23.0",
       "license": "MIT",
-      "stars": 9565
+      "stars": 9570
     },
     {
       "id": "opencode",
-      "version": "1.18.35",
+      "version": "1.19.0",
       "license": "MIT",
-      "stars": 212413
+      "stars": 212570
     },
     {
       "id": "opendocker",
@@ -50,7 +50,7 @@
     },
     {
       "id": "opentui-core",
-      "stars": 13504
+      "stars": 13506
     },
     {
       "id": "opentui-doom",
@@ -60,11 +60,11 @@
     },
     {
       "id": "opentui-examples",
-      "stars": 13504
+      "stars": 13506
     },
     {
       "id": "opentui-keymap",
-      "stars": 13504
+      "stars": 13506
     },
     {
       "id": "opentui-lint",
@@ -74,11 +74,11 @@
     },
     {
       "id": "opentui-qrcode",
-      "stars": 13504
+      "stars": 13506
     },
     {
       "id": "opentui-react",
-      "stars": 13504
+      "stars": 13506
     },
     {
       "id": "opentui-responsive",
@@ -88,7 +88,7 @@
     },
     {
       "id": "opentui-solid",
-      "stars": 13504
+      "stars": 13506
     },
     {
       "id": "opentui-spinner",
@@ -98,13 +98,13 @@
     },
     {
       "id": "opentui-split",
-      "version": "v0.1.1",
+      "version": "v0.2.0",
       "license": "MIT",
       "stars": 1
     },
     {
       "id": "opentui-ssh",
-      "stars": 13504
+      "stars": 13506
     },
     {
       "id": "opentui-tex",
@@ -114,7 +114,7 @@
     },
     {
       "id": "opentui-three",
-      "stars": 13504
+      "stars": 13506
     },
     {
       "id": "pilotty",
@@ -144,7 +144,7 @@
       "id": "termcn",
       "version": "0.0.0",
       "license": "MIT",
-      "stars": 1188
+      "stars": 1193
     },
     {
       "id": "termdraw",
@@ -156,7 +156,7 @@
       "id": "tfm-tui",
       "version": "v1.0.0",
       "license": "MIT",
-      "stars": 273
+      "stars": 291
     },
     {
       "id": "tuiparts",
