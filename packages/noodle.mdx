@@ -1,0 +1,47 @@
+---
+id: noodle
+name: Noodle
+summary: Terminal REST client for YAML request collections, API testing, and CLI automation.
+kind: application
+official: false
+maintainers:
+  - "@wilfredinni"
+source:
+  url: https://github.com/wilfredinni/noodle
+distributions:
+  - type: github-release
+    identifier: wilfredinni/noodle
+    install: brew install noodle
+links:
+  homepage: https://noodlerest.dev
+  docs: https://noodlerest.dev/docs/
+  issues: https://github.com/wilfredinni/noodle/issues
+  changelog: https://github.com/wilfredinni/noodle/releases
+categories:
+  - HTTP client
+  - API testing
+  - developer tools
+---
+
+Noodle uses [OpenTUI React](/packages/opentui-react) and [OpenTUI Keymap](/packages/opentui-keymap) to edit, send, and inspect HTTP requests from YAML files. Collections live in directories on disk, so teams can version requests with Git and run them in the terminal interface or the CLI.
+
+```yaml
+name: Get user
+method: GET
+url: $base_url/users/:userId
+path_params:
+  - name: userId
+    value: $user_id
+assert:
+  - expression: status
+    operator: equals
+    value: 200
+```
+
+The request pane edits parameters, headers, JSON, XML, multipart forms, file uploads, and `$random` or `$time` body templates. The response pane shows source and tree views for JSON and XML, filters JSON with JSONPath, previews images, and tracks history and cookies. Authentication supports bearer tokens, basic auth, API keys, OAuth 1.0a, OAuth 2.0, NTLMv2, and AWS SigV4, with proxy and mutual TLS settings.
+
+A QuickJS sandbox runs pre-request scripts, post-response scripts, and JavaScript tests with JSON Schema draft-07 checks. Captures pass response values between requests, and the collection runner executes tagged suites with CSV or JSON datasets. Noodle also imports OpenAPI, Swagger, Postman, and Insomnia files, exports OpenAPI and Postman collections, and supplies a skill for coding agents.
+
+Prebuilt binaries support macOS and Linux on x86_64 and arm64. Windows x64 has an unsigned beta binary, and Noodle does not support Windows ARM64. Noodle stores secrets, OAuth tokens, and cookie encryption keys in the operating-system credential vault.
+
+The [Noodle documentation](https://noodlerest.dev/docs/) covers the collection YAML format, the terminal interface, scripting, CLI automation, and configuration.
