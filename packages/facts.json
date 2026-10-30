@@ -23,19 +23,19 @@
       "id": "ghui",
       "version": "0.9.1",
       "license": "MIT",
-      "stars": 1128
+      "stars": 1129
     },
     {
       "id": "gloomberb",
-      "version": "0.19.0",
+      "version": "0.19.2",
       "license": "MIT",
-      "stars": 2562
+      "stars": 2569
     },
     {
       "id": "hunk",
       "version": "0.24.1",
       "license": "MIT",
-      "stars": 9709
+      "stars": 9717
     },
     {
       "id": "noodle",
@@ -47,16 +47,16 @@
       "id": "opencode",
       "version": "1.19.5",
       "license": "MIT",
-      "stars": 222779
+      "stars": 223082
     },
     {
       "id": "opendocker",
       "version": "0.7.4",
-      "stars": 43
+      "stars": 44
     },
     {
       "id": "opentui-core",
-      "stars": 13642
+      "stars": 13657
     },
     {
       "id": "opentui-doom",
@@ -66,11 +66,11 @@
     },
     {
       "id": "opentui-examples",
-      "stars": 13642
+      "stars": 13657
     },
     {
       "id": "opentui-keymap",
-      "stars": 13642
+      "stars": 13657
     },
     {
       "id": "opentui-lint",
@@ -80,11 +80,11 @@
     },
     {
       "id": "opentui-qrcode",
-      "stars": 13642
+      "stars": 13657
     },
     {
       "id": "opentui-react",
-      "stars": 13642
+      "stars": 13657
     },
     {
       "id": "opentui-responsive",
@@ -94,7 +94,7 @@
     },
     {
       "id": "opentui-solid",
-      "stars": 13642
+      "stars": 13657
     },
     {
       "id": "opentui-spinner",
@@ -110,7 +110,7 @@
     },
     {
       "id": "opentui-ssh",
-      "stars": 13642
+      "stars": 13657
     },
     {
       "id": "opentui-tex",
@@ -120,7 +120,7 @@
     },
     {
       "id": "opentui-three",
-      "stars": 13642
+      "stars": 13657
     },
     {
       "id": "pilotty",
@@ -162,13 +162,13 @@
       "id": "tfm-tui",
       "version": "v1.2.0",
       "license": "MIT",
-      "stars": 347
+      "stars": 350
     },
     {
       "id": "tuiparts",
       "version": "0.0.6",
       "license": "MIT",
-      "stars": 268
+      "stars": 269
     },
     {
       "id": "waha-tui",
