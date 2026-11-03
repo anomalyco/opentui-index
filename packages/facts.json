@@ -9,9 +9,9 @@
     },
     {
       "id": "critique",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "license": "MIT",
-      "stars": 1285
+      "stars": 1286
     },
     {
       "id": "easiarr",
@@ -23,23 +23,23 @@
       "id": "ghui",
       "version": "0.9.1",
       "license": "MIT",
-      "stars": 1131
+      "stars": 1132
     },
     {
       "id": "gloomberb",
-      "version": "0.19.5",
+      "version": "0.19.6",
       "license": "MIT",
-      "stars": 2609
+      "stars": 2624
     },
     {
       "id": "hunk",
       "version": "0.24.1",
       "license": "MIT",
-      "stars": 9734
+      "stars": 9741
     },
     {
       "id": "noodle",
-      "version": "v0.10.2",
+      "version": "v0.10.3",
       "license": "Apache-2.0",
       "stars": 400
     },
@@ -47,7 +47,7 @@
       "id": "opencode",
       "version": "1.19.5",
       "license": "MIT",
-      "stars": 223868
+      "stars": 224133
     },
     {
       "id": "opendocker",
@@ -56,7 +56,7 @@
     },
     {
       "id": "opentui-core",
-      "stars": 13689
+      "stars": 13702
     },
     {
       "id": "opentui-doom",
@@ -66,11 +66,11 @@
     },
     {
       "id": "opentui-examples",
-      "stars": 13689
+      "stars": 13702
     },
     {
       "id": "opentui-keymap",
-      "stars": 13689
+      "stars": 13702
     },
     {
       "id": "opentui-lint",
@@ -80,11 +80,11 @@
     },
     {
       "id": "opentui-qrcode",
-      "stars": 13689
+      "stars": 13702
     },
     {
       "id": "opentui-react",
-      "stars": 13689
+      "stars": 13702
     },
     {
       "id": "opentui-responsive",
@@ -94,7 +94,7 @@
     },
     {
       "id": "opentui-solid",
-      "stars": 13689
+      "stars": 13702
     },
     {
       "id": "opentui-spinner",
@@ -110,7 +110,7 @@
     },
     {
       "id": "opentui-ssh",
-      "stars": 13689
+      "stars": 13702
     },
     {
       "id": "opentui-tex",
@@ -120,13 +120,13 @@
     },
     {
       "id": "opentui-three",
-      "stars": 13689
+      "stars": 13702
     },
     {
       "id": "pilotty",
       "version": "0.0.11",
       "license": "MIT",
-      "stars": 161
+      "stars": 162
     },
     {
       "id": "red-cli",
