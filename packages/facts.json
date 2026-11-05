@@ -23,31 +23,31 @@
       "id": "ghui",
       "version": "0.9.1",
       "license": "MIT",
-      "stars": 1132
+      "stars": 1134
     },
     {
       "id": "gloomberb",
-      "version": "0.20.0",
+      "version": "0.20.1",
       "license": "MIT",
-      "stars": 2627
+      "stars": 2637
     },
     {
       "id": "hunk",
       "version": "0.24.1",
       "license": "MIT",
-      "stars": 9751
+      "stars": 9768
     },
     {
       "id": "noodle",
       "version": "v0.10.3",
       "license": "Apache-2.0",
-      "stars": 403
+      "stars": 402
     },
     {
       "id": "opencode",
       "version": "1.19.5",
       "license": "MIT",
-      "stars": 224375
+      "stars": 224613
     },
     {
       "id": "opendocker",
@@ -56,7 +56,7 @@
     },
     {
       "id": "opentui-core",
-      "stars": 13707
+      "stars": 13711
     },
     {
       "id": "opentui-doom",
@@ -66,11 +66,11 @@
     },
     {
       "id": "opentui-examples",
-      "stars": 13707
+      "stars": 13711
     },
     {
       "id": "opentui-keymap",
-      "stars": 13707
+      "stars": 13711
     },
     {
       "id": "opentui-lint",
@@ -80,11 +80,11 @@
     },
     {
       "id": "opentui-qrcode",
-      "stars": 13707
+      "stars": 13711
     },
     {
       "id": "opentui-react",
-      "stars": 13707
+      "stars": 13711
     },
     {
       "id": "opentui-responsive",
@@ -94,7 +94,7 @@
     },
     {
       "id": "opentui-solid",
-      "stars": 13707
+      "stars": 13711
     },
     {
       "id": "opentui-spinner",
@@ -110,7 +110,7 @@
     },
     {
       "id": "opentui-ssh",
-      "stars": 13707
+      "stars": 13711
     },
     {
       "id": "opentui-tex",
@@ -120,13 +120,13 @@
     },
     {
       "id": "opentui-three",
-      "stars": 13707
+      "stars": 13711
     },
     {
       "id": "pilotty",
       "version": "0.0.11",
       "license": "MIT",
-      "stars": 162
+      "stars": 161
     },
     {
       "id": "red-cli",
@@ -150,7 +150,7 @@
       "id": "termcn",
       "version": "0.0.0",
       "license": "MIT",
-      "stars": 1220
+      "stars": 1222
     },
     {
       "id": "termdraw",
