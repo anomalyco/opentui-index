@@ -22,19 +22,17 @@ categories:
   - tracing
 ---
 
-otel-tui uses [OpenTUI React](/packages/opentui-react) to show OpenTelemetry
-data in the terminal. It receives OTLP over HTTP on port 4318 and over gRPC on
-port 4317. An in-memory DuckDB database stores the data.
+otel-tui receives OpenTelemetry data from your services and shows it in the
+terminal, with no collector or backend to run. Point an OTLP exporter at port
+4318 for HTTP or 4317 for gRPC.
 
-The Services view shows the rate, error rate, and p50, p95, and p99 latency of
-each service. A trace opens as a span waterfall with events, attributes, links,
-and the critical path. The Metrics view shows series, histogram buckets, and
-exemplars that open their traces. The Logs view filters by severity and by
-trace.
+It shows each service's rate, errors, and latency percentiles, traces as span
+waterfalls, metric series with exemplars, and logs linked to their traces. It
+is built with [OpenTUI React](/packages/opentui-react).
 
-The app runs on macOS and Linux, on arm64 and x64. The first run downloads the
-DuckDB OTLP extension, so it needs network access once. Authentication is off,
-so the receiver listens on 127.0.0.1 unless you set `--host`.
+otel-tui runs on macOS and Linux. The first run downloads the DuckDB OTLP
+extension, so it needs network access once. The receiver has no
+authentication and listens on 127.0.0.1 unless you set `--host`.
 
 The [README](https://github.com/michaltarasiuk/otel-tui#readme) describes each
-view, its keys, and the command-line flags.
+view and its keys.
