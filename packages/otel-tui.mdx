@@ -1,0 +1,38 @@
+---
+id: otel-tui
+name: otel-tui
+summary: Terminal viewer for OpenTelemetry traces, metrics, and logs received over OTLP.
+kind: application
+official: false
+maintainers:
+  - "@michaltarasiuk"
+source:
+  url: https://github.com/michaltarasiuk/otel-tui
+distributions:
+  - type: github-release
+    identifier: michaltarasiuk/otel-tui
+    install: brew install michaltarasiuk/tap/otel-tui
+links:
+  docs: https://github.com/michaltarasiuk/otel-tui#readme
+  issues: https://github.com/michaltarasiuk/otel-tui/issues
+  changelog: https://github.com/michaltarasiuk/otel-tui/releases
+categories:
+  - OpenTelemetry
+  - observability
+  - tracing
+---
+
+otel-tui receives OpenTelemetry data from your services and shows it in the
+terminal, with no collector or backend to run. Point an OTLP exporter at port
+4318 for HTTP or 4317 for gRPC.
+
+It shows each service's rate, errors, and latency percentiles, traces as span
+waterfalls, metric series with exemplars, and logs linked to their traces. It
+is built with [OpenTUI React](/packages/opentui-react).
+
+otel-tui runs on macOS and Linux. The first run downloads the DuckDB OTLP
+extension, so it needs network access once. The receiver has no
+authentication and listens on 127.0.0.1 unless you set `--host`.
+
+The [README](https://github.com/michaltarasiuk/otel-tui#readme) describes each
+view and its keys.
