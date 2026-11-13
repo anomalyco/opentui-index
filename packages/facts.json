@@ -27,15 +27,15 @@
     },
     {
       "id": "gloomberb",
-      "version": "0.20.7",
+      "version": "0.20.11",
       "license": "MIT",
-      "stars": 2707
+      "stars": 2714
     },
     {
       "id": "hunk",
       "version": "0.25.0",
       "license": "MIT",
-      "stars": 9823
+      "stars": 9824
     },
     {
       "id": "noodle",
@@ -47,7 +47,7 @@
       "id": "opencode",
       "version": "1.19.5",
       "license": "MIT",
-      "stars": 226198
+      "stars": 226479
     },
     {
       "id": "opendocker",
@@ -56,7 +56,7 @@
     },
     {
       "id": "opentui-core",
-      "stars": 13798
+      "stars": 13810
     },
     {
       "id": "opentui-doom",
@@ -66,11 +66,11 @@
     },
     {
       "id": "opentui-examples",
-      "stars": 13798
+      "stars": 13810
     },
     {
       "id": "opentui-keymap",
-      "stars": 13798
+      "stars": 13810
     },
     {
       "id": "opentui-lint",
@@ -80,11 +80,11 @@
     },
     {
       "id": "opentui-qrcode",
-      "stars": 13798
+      "stars": 13810
     },
     {
       "id": "opentui-react",
-      "stars": 13798
+      "stars": 13810
     },
     {
       "id": "opentui-responsive",
@@ -94,7 +94,7 @@
     },
     {
       "id": "opentui-solid",
-      "stars": 13798
+      "stars": 13810
     },
     {
       "id": "opentui-spinner",
@@ -110,7 +110,7 @@
     },
     {
       "id": "opentui-ssh",
-      "stars": 13798
+      "stars": 13810
     },
     {
       "id": "opentui-tex",
@@ -120,7 +120,13 @@
     },
     {
       "id": "opentui-three",
-      "stars": 13798
+      "stars": 13810
+    },
+    {
+      "id": "otel-tui",
+      "version": "v0.5.3",
+      "license": "MIT",
+      "stars": 1
     },
     {
       "id": "pilotty",
@@ -162,13 +168,13 @@
       "id": "tfm-tui",
       "version": "v1.2.0",
       "license": "MIT",
-      "stars": 359
+      "stars": 360
     },
     {
       "id": "tuiparts",
       "version": "0.0.6",
       "license": "MIT",
-      "stars": 271
+      "stars": 272
     },
     {
       "id": "waha-tui",
