@@ -17,25 +17,25 @@
       "id": "easiarr",
       "version": "1.6.0",
       "license": "MIT",
-      "stars": 76
+      "stars": 77
     },
     {
       "id": "ghui",
       "version": "0.9.1",
       "license": "MIT",
-      "stars": 1143
+      "stars": 1144
     },
     {
       "id": "gloomberb",
-      "version": "0.20.11",
+      "version": "0.20.13",
       "license": "MIT",
-      "stars": 2714
+      "stars": 2723
     },
     {
       "id": "hunk",
       "version": "0.25.0",
       "license": "MIT",
-      "stars": 9824
+      "stars": 9830
     },
     {
       "id": "noodle",
@@ -47,7 +47,7 @@
       "id": "opencode",
       "version": "1.19.5",
       "license": "MIT",
-      "stars": 226479
+      "stars": 226692
     },
     {
       "id": "opendocker",
@@ -56,7 +56,7 @@
     },
     {
       "id": "opentui-core",
-      "stars": 13810
+      "stars": 13814
     },
     {
       "id": "opentui-doom",
@@ -66,11 +66,11 @@
     },
     {
       "id": "opentui-examples",
-      "stars": 13810
+      "stars": 13814
     },
     {
       "id": "opentui-keymap",
-      "stars": 13810
+      "stars": 13814
     },
     {
       "id": "opentui-lint",
@@ -80,11 +80,11 @@
     },
     {
       "id": "opentui-qrcode",
-      "stars": 13810
+      "stars": 13814
     },
     {
       "id": "opentui-react",
-      "stars": 13810
+      "stars": 13814
     },
     {
       "id": "opentui-responsive",
@@ -94,7 +94,7 @@
     },
     {
       "id": "opentui-solid",
-      "stars": 13810
+      "stars": 13814
     },
     {
       "id": "opentui-spinner",
@@ -110,7 +110,7 @@
     },
     {
       "id": "opentui-ssh",
-      "stars": 13810
+      "stars": 13814
     },
     {
       "id": "opentui-tex",
@@ -120,7 +120,7 @@
     },
     {
       "id": "opentui-three",
-      "stars": 13810
+      "stars": 13814
     },
     {
       "id": "otel-tui",
@@ -156,7 +156,7 @@
       "id": "termcn",
       "version": "0.0.0",
       "license": "MIT",
-      "stars": 1228
+      "stars": 1231
     },
     {
       "id": "termdraw",
