@@ -1,0 +1,36 @@
+---
+id: awsesh
+name: awsesh
+summary: Terminal application for managing AWS SSO sessions and credentials.
+kind: application
+official: false
+maintainers:
+  - "@Paliago"
+source:
+  url: https://github.com/elva-labs/awsesh
+  directory: packages/awsesh
+distributions:
+  - type: github-release
+    identifier: elva-labs/awsesh
+    install: |
+      brew tap elva-labs/elva
+      brew install awsesh
+links:
+  docs: https://github.com/elva-labs/awsesh#readme
+categories:
+  - AWS
+  - single sign-on
+  - credentials
+---
+
+awsesh uses [OpenTUI Solid](/packages/opentui-solid) to browse SSO profiles,
+search AWS accounts and roles, and inspect active credential sessions. You
+can open the AWS Console for a selected account or export credentials to
+your shell.
+
+The terminal application is available through Homebrew on macOS and Linux.
+[GitHub releases](https://github.com/elva-labs/awsesh/releases/latest) also
+provide prebuilt binaries for Windows.
+
+The [README](https://github.com/elva-labs/awsesh#interactive-tui) documents
+keyboard controls, profile management, and account and role selection.
